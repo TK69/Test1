@@ -18,7 +18,24 @@
         android:text="Hello Branch!"
         android:id="@+id/textView" />
 
-    <Button
+<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_pic"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="160dp" /><<<<<<< .mine=======        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_pic"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="160dp" />
+
+>>>>>>> .theirs    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Branch1"        android:id="@+id/button"
